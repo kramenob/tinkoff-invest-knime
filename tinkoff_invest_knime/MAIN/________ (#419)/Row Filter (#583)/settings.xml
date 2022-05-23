@@ -8,7 +8,7 @@
     <config key="model">
         <config key="rowFilter">
             <entry key="RowFilter_TypeID" type="xstring" value="StringComp_RowFilter"/>
-            <entry key="ColumnName" type="xstring" value="Тип Инструмента"/>
+            <entry key="ColumnName" type="xstring" value="instrumentType"/>
             <entry key="include" type="xboolean" value="true"/>
             <entry key="deepFiltering" type="xboolean" value="false"/>
             <entry key="CaseSensitive" type="xboolean" value="true"/>

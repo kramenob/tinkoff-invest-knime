@@ -27,7 +27,7 @@
         </config>
         <config key="leftTableJoinPredicate">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="ID Инструмента"/>
+            <entry key="0" type="xstring" value="figi"/>
         </config>
         <config key="rightTableJoinPredicate_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
@@ -95,17 +95,17 @@
         <config key="leftColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="6"/>
+                <entry key="array-size" type="xint" value="7"/>
                 <entry key="0" type="xstring" value="RowIDs"/>
                 <entry key="1" type="xstring" value="ColumnNames"/>
                 <entry key="2" type="xstring" value="ColumnValues"/>
-                <entry key="3" type="xstring" value="Тип Инструмента"/>
-                <entry key="4" type="xstring" value="currency"/>
-                <entry key="5" type="xstring" value="combined string"/>
+                <entry key="3" type="xstring" value="figi"/>
+                <entry key="4" type="xstring" value="instrumentType"/>
+                <entry key="5" type="xstring" value="currency"/>
+                <entry key="6" type="xstring" value="combined string"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="ID Инструмента"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -129,8 +129,9 @@
         <config key="rightColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="name"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="ticker"/>
+                <entry key="1" type="xstring" value="name"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="1"/>

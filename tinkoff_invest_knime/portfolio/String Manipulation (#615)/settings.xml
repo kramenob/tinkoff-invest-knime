@@ -6,8 +6,8 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="replace(replace($Лотов$, %%00010%%00009&quot;.0&quot;, &quot;&quot;), %%00010%%00009&quot;%&quot;, &quot;&quot;)"/>
-        <entry key="replaced_column" type="xstring" value="Лотов"/>
+        <entry key="expression" type="xstring" value="replace(replace($quantityLots$, %%00010%%00009&quot;.0&quot;, &quot;&quot;), %%00010%%00009&quot;%&quot;, &quot;&quot;)"/>
+        <entry key="replaced_column" type="xstring" value="quantityLots"/>
         <entry key="append_column" type="xboolean" value="true"/>
         <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
         <entry key="insert_missing_as_null" type="xboolean" value="true"/>

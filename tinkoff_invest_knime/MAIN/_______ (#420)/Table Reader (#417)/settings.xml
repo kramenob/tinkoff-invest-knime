@@ -7,6 +7,8 @@
     </config>
     <config key="model">
         <config key="settings">
+            <entry key="has_row_id" type="xboolean" value="false"/>
+            <entry key="prepend_table_index_to_row_id" type="xboolean" value="false"/>
             <config key="file_selection_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -53,8 +55,6 @@
                     </config>
                 </config>
             </config>
-            <entry key="has_row_id" type="xboolean" value="false"/>
-            <entry key="prepend_table_index_to_row_id" type="xboolean" value="false"/>
         </config>
         <config key="advanced_settings">
             <entry key="skip_data_rows" type="xboolean" value="false"/>

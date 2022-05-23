@@ -9,14 +9,13 @@
 </p>
 
 
-
 <p align="center">
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="apache" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+<a href="https://tinkoff.github.io/investAPI/"><img alt="api" src="https://img.shields.io/badge/Tinkoff%20Invest%20API-v.2.0-yellow"></a>
 <a href="https://www.knime.com/downloads/download-knime"><img alt="knime" src="https://img.shields.io/badge/KNIME-v.4.5-yellow"></a>
 <a href="https://nodepit.com/product/palladian"><img alt="palladian" src="https://img.shields.io/badge/Palladian-v.4.5-lightgrey"></a>
 <a href="https://www.knime.com/downloads/download-knime"><img alt="platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-orange"></a>
 </p>
-<h1></h1>
 
 
 ## Работа с API Тинькофф Инвестиций без навыков программирования
@@ -69,16 +68,32 @@ Tinkoff Invest [KNIME](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/
 
 Когда таблица всех счетов сформирована можно получить портфель по любому счёту (уровень доступа которого позволяет).
 
-Для этого дважды кликаем по жёлтому компоненту и в выпадающем списке выбираем интересующий счёт и жмём `OK`. На выбранный счёт будет осуществленна пробная покупка инструмента.
+Для этого дважды кликаем по жёлтому компоненту "Портфель" и в выпадающем списке выбираем интересующий счёт и жмём `OK`. На выбранный счёт будет осуществленна пробная покупка инструмента.
 
 <p align="center">
   <a href="https://i.ibb.co/CJyyj2x/account.png" alt="account"><img src="https://i.ibb.co/CJyyj2x/account.png"/></a>
 </p>
 Теперь необходимо выполнить компонент на `F7`, после чего будет доступен просмотр `F10`.
 
+### Бюджет
 
+После получения портфеля по счёту, можно приступить к его пополнению - покупке.
 
-*на доработка*
+Дважды кликнув по оранжевому компоненту "Бюджет", в поле указать бюджет инвестирования в рублях (мин. 100), нажать `OK`
+
+<p align="center">
+  <a href="https://i.ibb.co/HY7W4hn/budget.png" alt="budget"><img src="https://i.ibb.co/HY7W4hn/budget.png"/></a>
+</p>
+
+Теперь необходимо выполнить компонент на `F7`, после чего будет доступен просмотр `F10`.
+
+Для покупки отметьте галочкой инструменты, что хотите приобрести, а затем подтвердите выбор на `Apply`
+
+!ВАЖНО! - на этом этапе убедитесь, что у Вас отключено "Подтверждение сделок кодом" в [Инвестиционных настройках Тинькофф](https://www.tinkoff.ru/invest/settings/)
+
+### Покупка
+
+После выбора инструментов остается лишь активировать покупку выполнением зеленого компонента на `F7`, затем можно ознакомиться с информацией об операции на `F10`
 
 
 

@@ -10,18 +10,19 @@
         <config key="columnFilter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="Инструмент"/>
-                <entry key="1" type="xstring" value="Текущая цена за 1 ед."/>
-                <entry key="2" type="xstring" value="Средневзвешенная цена"/>
-                <entry key="3" type="xstring" value="Средняя цена лота"/>
-                <entry key="4" type="xstring" value="Количество"/>
-                <entry key="5" type="xstring" value="Лотов"/>
-                <entry key="6" type="xstring" value="Доходность"/>
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="Имя инструмента"/>
+                <entry key="1" type="xstring" value="Средневзвешенная цена"/>
+                <entry key="2" type="xstring" value="Средняя цена лота"/>
+                <entry key="3" type="xstring" value="Текущая цена за 1 ед."/>
+                <entry key="4" type="xstring" value="Доходность"/>
+                <entry key="5" type="xstring" value="Количество"/>
+                <entry key="6" type="xstring" value="Лотов"/>
+                <entry key="7" type="xstring" value="Инструмент"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Тип Инструмента"/>
+                <entry key="0" type="xstring" value="instrumentType"/>
                 <entry key="1" type="xstring" value="Текущий НКД"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>

@@ -13,104 +13,113 @@
         <config key="retained_columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
-            </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="94"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="Название счёта"/>
                 <entry key="1" type="xstring" value="Метод"/>
                 <entry key="2" type="xstring" value="HTTP Status Code"/>
                 <entry key="3" type="xstring" value="unnamed"/>
-                <entry key="4" type="xstring" value="figi"/>
-                <entry key="5" type="xstring" value="instrumentType"/>
-                <entry key="6" type="xstring" value="quantity"/>
-                <entry key="7" type="xstring" value="averagePositionPrice"/>
-                <entry key="8" type="xstring" value="expectedYield"/>
-                <entry key="9" type="xstring" value="currentNkd"/>
-                <entry key="10" type="xstring" value="currentPrice"/>
-                <entry key="11" type="xstring" value="averagePositionPriceFifo"/>
-                <entry key="12" type="xstring" value="quantityLots"/>
-                <entry key="13" type="xstring" value="figi (#1)"/>
-                <entry key="14" type="xstring" value="instrumentType (#1)"/>
-                <entry key="15" type="xstring" value="quantity (#1)"/>
-                <entry key="16" type="xstring" value="averagePositionPrice (#1)"/>
-                <entry key="17" type="xstring" value="expectedYield (#1)"/>
-                <entry key="18" type="xstring" value="currentNkd (#1)"/>
-                <entry key="19" type="xstring" value="currentPrice (#1)"/>
-                <entry key="20" type="xstring" value="averagePositionPriceFifo (#1)"/>
-                <entry key="21" type="xstring" value="quantityLots (#1)"/>
-                <entry key="22" type="xstring" value="figi (#2)"/>
-                <entry key="23" type="xstring" value="instrumentType (#2)"/>
-                <entry key="24" type="xstring" value="quantity (#2)"/>
-                <entry key="25" type="xstring" value="averagePositionPrice (#2)"/>
-                <entry key="26" type="xstring" value="expectedYield (#2)"/>
-                <entry key="27" type="xstring" value="currentNkd (#2)"/>
-                <entry key="28" type="xstring" value="currentPrice (#2)"/>
-                <entry key="29" type="xstring" value="averagePositionPriceFifo (#2)"/>
-                <entry key="30" type="xstring" value="quantityLots (#2)"/>
-                <entry key="31" type="xstring" value="figi (#3)"/>
-                <entry key="32" type="xstring" value="instrumentType (#3)"/>
-                <entry key="33" type="xstring" value="quantity (#3)"/>
-                <entry key="34" type="xstring" value="averagePositionPrice (#3)"/>
-                <entry key="35" type="xstring" value="expectedYield (#3)"/>
-                <entry key="36" type="xstring" value="currentNkd (#3)"/>
-                <entry key="37" type="xstring" value="currentPrice (#3)"/>
-                <entry key="38" type="xstring" value="averagePositionPriceFifo (#3)"/>
-                <entry key="39" type="xstring" value="quantityLots (#3)"/>
-                <entry key="40" type="xstring" value="figi (#4)"/>
-                <entry key="41" type="xstring" value="instrumentType (#4)"/>
-                <entry key="42" type="xstring" value="quantity (#4)"/>
-                <entry key="43" type="xstring" value="averagePositionPrice (#4)"/>
-                <entry key="44" type="xstring" value="expectedYield (#4)"/>
-                <entry key="45" type="xstring" value="currentNkd (#4)"/>
-                <entry key="46" type="xstring" value="currentPrice (#4)"/>
-                <entry key="47" type="xstring" value="averagePositionPriceFifo (#4)"/>
-                <entry key="48" type="xstring" value="quantityLots (#4)"/>
-                <entry key="49" type="xstring" value="figi (#5)"/>
-                <entry key="50" type="xstring" value="instrumentType (#5)"/>
-                <entry key="51" type="xstring" value="quantity (#5)"/>
-                <entry key="52" type="xstring" value="averagePositionPrice (#5)"/>
-                <entry key="53" type="xstring" value="expectedYield (#5)"/>
-                <entry key="54" type="xstring" value="currentNkd (#5)"/>
-                <entry key="55" type="xstring" value="currentPrice (#5)"/>
-                <entry key="56" type="xstring" value="averagePositionPriceFifo (#5)"/>
-                <entry key="57" type="xstring" value="quantityLots (#5)"/>
-                <entry key="58" type="xstring" value="figi (#6)"/>
-                <entry key="59" type="xstring" value="instrumentType (#6)"/>
-                <entry key="60" type="xstring" value="quantity (#6)"/>
-                <entry key="61" type="xstring" value="averagePositionPrice (#6)"/>
-                <entry key="62" type="xstring" value="expectedYield (#6)"/>
-                <entry key="63" type="xstring" value="currentNkd (#6)"/>
-                <entry key="64" type="xstring" value="currentPrice (#6)"/>
-                <entry key="65" type="xstring" value="averagePositionPriceFifo (#6)"/>
-                <entry key="66" type="xstring" value="quantityLots (#6)"/>
-                <entry key="67" type="xstring" value="figi (#7)"/>
-                <entry key="68" type="xstring" value="instrumentType (#7)"/>
-                <entry key="69" type="xstring" value="quantity (#7)"/>
-                <entry key="70" type="xstring" value="averagePositionPrice (#7)"/>
-                <entry key="71" type="xstring" value="expectedYield (#7)"/>
-                <entry key="72" type="xstring" value="currentNkd (#7)"/>
-                <entry key="73" type="xstring" value="currentPrice (#7)"/>
-                <entry key="74" type="xstring" value="averagePositionPriceFifo (#7)"/>
-                <entry key="75" type="xstring" value="quantityLots (#7)"/>
-                <entry key="76" type="xstring" value="figi (#8)"/>
-                <entry key="77" type="xstring" value="instrumentType (#8)"/>
-                <entry key="78" type="xstring" value="quantity (#8)"/>
-                <entry key="79" type="xstring" value="averagePositionPrice (#8)"/>
-                <entry key="80" type="xstring" value="expectedYield (#8)"/>
-                <entry key="81" type="xstring" value="currentNkd (#8)"/>
-                <entry key="82" type="xstring" value="currentPrice (#8)"/>
-                <entry key="83" type="xstring" value="averagePositionPriceFifo (#8)"/>
-                <entry key="84" type="xstring" value="quantityLots (#8)"/>
-                <entry key="85" type="xstring" value="figi (#9)"/>
-                <entry key="86" type="xstring" value="instrumentType (#9)"/>
-                <entry key="87" type="xstring" value="quantity (#9)"/>
-                <entry key="88" type="xstring" value="averagePositionPrice (#9)"/>
-                <entry key="89" type="xstring" value="expectedYield (#9)"/>
-                <entry key="90" type="xstring" value="currentNkd (#9)"/>
-                <entry key="91" type="xstring" value="currentPrice (#9)"/>
-                <entry key="92" type="xstring" value="averagePositionPriceFifo (#9)"/>
-                <entry key="93" type="xstring" value="quantityLots (#9)"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="99"/>
+                <entry key="0" type="xstring" value="figi"/>
+                <entry key="1" type="xstring" value="instrumentType"/>
+                <entry key="2" type="xstring" value="quantity"/>
+                <entry key="3" type="xstring" value="averagePositionPrice"/>
+                <entry key="4" type="xstring" value="expectedYield"/>
+                <entry key="5" type="xstring" value="currentNkd"/>
+                <entry key="6" type="xstring" value="currentPrice"/>
+                <entry key="7" type="xstring" value="averagePositionPriceFifo"/>
+                <entry key="8" type="xstring" value="quantityLots"/>
+                <entry key="9" type="xstring" value="figi (#1)"/>
+                <entry key="10" type="xstring" value="instrumentType (#1)"/>
+                <entry key="11" type="xstring" value="quantity (#1)"/>
+                <entry key="12" type="xstring" value="averagePositionPrice (#1)"/>
+                <entry key="13" type="xstring" value="expectedYield (#1)"/>
+                <entry key="14" type="xstring" value="currentNkd (#1)"/>
+                <entry key="15" type="xstring" value="currentPrice (#1)"/>
+                <entry key="16" type="xstring" value="averagePositionPriceFifo (#1)"/>
+                <entry key="17" type="xstring" value="quantityLots (#1)"/>
+                <entry key="18" type="xstring" value="figi (#2)"/>
+                <entry key="19" type="xstring" value="instrumentType (#2)"/>
+                <entry key="20" type="xstring" value="quantity (#2)"/>
+                <entry key="21" type="xstring" value="averagePositionPrice (#2)"/>
+                <entry key="22" type="xstring" value="expectedYield (#2)"/>
+                <entry key="23" type="xstring" value="currentNkd (#2)"/>
+                <entry key="24" type="xstring" value="currentPrice (#2)"/>
+                <entry key="25" type="xstring" value="averagePositionPriceFifo (#2)"/>
+                <entry key="26" type="xstring" value="quantityLots (#2)"/>
+                <entry key="27" type="xstring" value="figi (#3)"/>
+                <entry key="28" type="xstring" value="instrumentType (#3)"/>
+                <entry key="29" type="xstring" value="quantity (#3)"/>
+                <entry key="30" type="xstring" value="averagePositionPrice (#3)"/>
+                <entry key="31" type="xstring" value="expectedYield (#3)"/>
+                <entry key="32" type="xstring" value="currentNkd (#3)"/>
+                <entry key="33" type="xstring" value="currentPrice (#3)"/>
+                <entry key="34" type="xstring" value="averagePositionPriceFifo (#3)"/>
+                <entry key="35" type="xstring" value="quantityLots (#3)"/>
+                <entry key="36" type="xstring" value="figi (#4)"/>
+                <entry key="37" type="xstring" value="instrumentType (#4)"/>
+                <entry key="38" type="xstring" value="quantity (#4)"/>
+                <entry key="39" type="xstring" value="averagePositionPrice (#4)"/>
+                <entry key="40" type="xstring" value="expectedYield (#4)"/>
+                <entry key="41" type="xstring" value="currentNkd (#4)"/>
+                <entry key="42" type="xstring" value="currentPrice (#4)"/>
+                <entry key="43" type="xstring" value="averagePositionPriceFifo (#4)"/>
+                <entry key="44" type="xstring" value="quantityLots (#4)"/>
+                <entry key="45" type="xstring" value="figi (#5)"/>
+                <entry key="46" type="xstring" value="instrumentType (#5)"/>
+                <entry key="47" type="xstring" value="quantity (#5)"/>
+                <entry key="48" type="xstring" value="averagePositionPrice (#5)"/>
+                <entry key="49" type="xstring" value="expectedYield (#5)"/>
+                <entry key="50" type="xstring" value="currentNkd (#5)"/>
+                <entry key="51" type="xstring" value="currentPrice (#5)"/>
+                <entry key="52" type="xstring" value="averagePositionPriceFifo (#5)"/>
+                <entry key="53" type="xstring" value="quantityLots (#5)"/>
+                <entry key="54" type="xstring" value="figi (#6)"/>
+                <entry key="55" type="xstring" value="instrumentType (#6)"/>
+                <entry key="56" type="xstring" value="quantity (#6)"/>
+                <entry key="57" type="xstring" value="averagePositionPrice (#6)"/>
+                <entry key="58" type="xstring" value="expectedYield (#6)"/>
+                <entry key="59" type="xstring" value="currentNkd (#6)"/>
+                <entry key="60" type="xstring" value="currentPrice (#6)"/>
+                <entry key="61" type="xstring" value="averagePositionPriceFifo (#6)"/>
+                <entry key="62" type="xstring" value="quantityLots (#6)"/>
+                <entry key="63" type="xstring" value="figi (#7)"/>
+                <entry key="64" type="xstring" value="instrumentType (#7)"/>
+                <entry key="65" type="xstring" value="quantity (#7)"/>
+                <entry key="66" type="xstring" value="averagePositionPrice (#7)"/>
+                <entry key="67" type="xstring" value="expectedYield (#7)"/>
+                <entry key="68" type="xstring" value="currentNkd (#7)"/>
+                <entry key="69" type="xstring" value="currentPrice (#7)"/>
+                <entry key="70" type="xstring" value="averagePositionPriceFifo (#7)"/>
+                <entry key="71" type="xstring" value="quantityLots (#7)"/>
+                <entry key="72" type="xstring" value="figi (#8)"/>
+                <entry key="73" type="xstring" value="instrumentType (#8)"/>
+                <entry key="74" type="xstring" value="quantity (#8)"/>
+                <entry key="75" type="xstring" value="averagePositionPrice (#8)"/>
+                <entry key="76" type="xstring" value="expectedYield (#8)"/>
+                <entry key="77" type="xstring" value="currentNkd (#8)"/>
+                <entry key="78" type="xstring" value="currentPrice (#8)"/>
+                <entry key="79" type="xstring" value="averagePositionPriceFifo (#8)"/>
+                <entry key="80" type="xstring" value="quantityLots (#8)"/>
+                <entry key="81" type="xstring" value="figi (#9)"/>
+                <entry key="82" type="xstring" value="instrumentType (#9)"/>
+                <entry key="83" type="xstring" value="quantity (#9)"/>
+                <entry key="84" type="xstring" value="averagePositionPrice (#9)"/>
+                <entry key="85" type="xstring" value="expectedYield (#9)"/>
+                <entry key="86" type="xstring" value="currentNkd (#9)"/>
+                <entry key="87" type="xstring" value="currentPrice (#9)"/>
+                <entry key="88" type="xstring" value="averagePositionPriceFifo (#9)"/>
+                <entry key="89" type="xstring" value="quantityLots (#9)"/>
+                <entry key="90" type="xstring" value="figi (#10)"/>
+                <entry key="91" type="xstring" value="instrumentType (#10)"/>
+                <entry key="92" type="xstring" value="quantity (#10)"/>
+                <entry key="93" type="xstring" value="averagePositionPrice (#10)"/>
+                <entry key="94" type="xstring" value="expectedYield (#10)"/>
+                <entry key="95" type="xstring" value="currentNkd (#10)"/>
+                <entry key="96" type="xstring" value="currentPrice (#10)"/>
+                <entry key="97" type="xstring" value="averagePositionPriceFifo (#10)"/>
+                <entry key="98" type="xstring" value="quantityLots (#10)"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -139,106 +148,115 @@
         <config key="value_columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="94"/>
+                <entry key="array-size" type="xint" value="99"/>
+                <entry key="0" type="xstring" value="figi"/>
+                <entry key="1" type="xstring" value="instrumentType"/>
+                <entry key="2" type="xstring" value="quantity"/>
+                <entry key="3" type="xstring" value="averagePositionPrice"/>
+                <entry key="4" type="xstring" value="expectedYield"/>
+                <entry key="5" type="xstring" value="currentNkd"/>
+                <entry key="6" type="xstring" value="currentPrice"/>
+                <entry key="7" type="xstring" value="averagePositionPriceFifo"/>
+                <entry key="8" type="xstring" value="quantityLots"/>
+                <entry key="9" type="xstring" value="figi (#1)"/>
+                <entry key="10" type="xstring" value="instrumentType (#1)"/>
+                <entry key="11" type="xstring" value="quantity (#1)"/>
+                <entry key="12" type="xstring" value="averagePositionPrice (#1)"/>
+                <entry key="13" type="xstring" value="expectedYield (#1)"/>
+                <entry key="14" type="xstring" value="currentNkd (#1)"/>
+                <entry key="15" type="xstring" value="currentPrice (#1)"/>
+                <entry key="16" type="xstring" value="averagePositionPriceFifo (#1)"/>
+                <entry key="17" type="xstring" value="quantityLots (#1)"/>
+                <entry key="18" type="xstring" value="figi (#2)"/>
+                <entry key="19" type="xstring" value="instrumentType (#2)"/>
+                <entry key="20" type="xstring" value="quantity (#2)"/>
+                <entry key="21" type="xstring" value="averagePositionPrice (#2)"/>
+                <entry key="22" type="xstring" value="expectedYield (#2)"/>
+                <entry key="23" type="xstring" value="currentNkd (#2)"/>
+                <entry key="24" type="xstring" value="currentPrice (#2)"/>
+                <entry key="25" type="xstring" value="averagePositionPriceFifo (#2)"/>
+                <entry key="26" type="xstring" value="quantityLots (#2)"/>
+                <entry key="27" type="xstring" value="figi (#3)"/>
+                <entry key="28" type="xstring" value="instrumentType (#3)"/>
+                <entry key="29" type="xstring" value="quantity (#3)"/>
+                <entry key="30" type="xstring" value="averagePositionPrice (#3)"/>
+                <entry key="31" type="xstring" value="expectedYield (#3)"/>
+                <entry key="32" type="xstring" value="currentNkd (#3)"/>
+                <entry key="33" type="xstring" value="currentPrice (#3)"/>
+                <entry key="34" type="xstring" value="averagePositionPriceFifo (#3)"/>
+                <entry key="35" type="xstring" value="quantityLots (#3)"/>
+                <entry key="36" type="xstring" value="figi (#4)"/>
+                <entry key="37" type="xstring" value="instrumentType (#4)"/>
+                <entry key="38" type="xstring" value="quantity (#4)"/>
+                <entry key="39" type="xstring" value="averagePositionPrice (#4)"/>
+                <entry key="40" type="xstring" value="expectedYield (#4)"/>
+                <entry key="41" type="xstring" value="currentNkd (#4)"/>
+                <entry key="42" type="xstring" value="currentPrice (#4)"/>
+                <entry key="43" type="xstring" value="averagePositionPriceFifo (#4)"/>
+                <entry key="44" type="xstring" value="quantityLots (#4)"/>
+                <entry key="45" type="xstring" value="figi (#5)"/>
+                <entry key="46" type="xstring" value="instrumentType (#5)"/>
+                <entry key="47" type="xstring" value="quantity (#5)"/>
+                <entry key="48" type="xstring" value="averagePositionPrice (#5)"/>
+                <entry key="49" type="xstring" value="expectedYield (#5)"/>
+                <entry key="50" type="xstring" value="currentNkd (#5)"/>
+                <entry key="51" type="xstring" value="currentPrice (#5)"/>
+                <entry key="52" type="xstring" value="averagePositionPriceFifo (#5)"/>
+                <entry key="53" type="xstring" value="quantityLots (#5)"/>
+                <entry key="54" type="xstring" value="figi (#6)"/>
+                <entry key="55" type="xstring" value="instrumentType (#6)"/>
+                <entry key="56" type="xstring" value="quantity (#6)"/>
+                <entry key="57" type="xstring" value="averagePositionPrice (#6)"/>
+                <entry key="58" type="xstring" value="expectedYield (#6)"/>
+                <entry key="59" type="xstring" value="currentNkd (#6)"/>
+                <entry key="60" type="xstring" value="currentPrice (#6)"/>
+                <entry key="61" type="xstring" value="averagePositionPriceFifo (#6)"/>
+                <entry key="62" type="xstring" value="quantityLots (#6)"/>
+                <entry key="63" type="xstring" value="figi (#7)"/>
+                <entry key="64" type="xstring" value="instrumentType (#7)"/>
+                <entry key="65" type="xstring" value="quantity (#7)"/>
+                <entry key="66" type="xstring" value="averagePositionPrice (#7)"/>
+                <entry key="67" type="xstring" value="expectedYield (#7)"/>
+                <entry key="68" type="xstring" value="currentNkd (#7)"/>
+                <entry key="69" type="xstring" value="currentPrice (#7)"/>
+                <entry key="70" type="xstring" value="averagePositionPriceFifo (#7)"/>
+                <entry key="71" type="xstring" value="quantityLots (#7)"/>
+                <entry key="72" type="xstring" value="figi (#8)"/>
+                <entry key="73" type="xstring" value="instrumentType (#8)"/>
+                <entry key="74" type="xstring" value="quantity (#8)"/>
+                <entry key="75" type="xstring" value="averagePositionPrice (#8)"/>
+                <entry key="76" type="xstring" value="expectedYield (#8)"/>
+                <entry key="77" type="xstring" value="currentNkd (#8)"/>
+                <entry key="78" type="xstring" value="currentPrice (#8)"/>
+                <entry key="79" type="xstring" value="averagePositionPriceFifo (#8)"/>
+                <entry key="80" type="xstring" value="quantityLots (#8)"/>
+                <entry key="81" type="xstring" value="figi (#9)"/>
+                <entry key="82" type="xstring" value="instrumentType (#9)"/>
+                <entry key="83" type="xstring" value="quantity (#9)"/>
+                <entry key="84" type="xstring" value="averagePositionPrice (#9)"/>
+                <entry key="85" type="xstring" value="expectedYield (#9)"/>
+                <entry key="86" type="xstring" value="currentNkd (#9)"/>
+                <entry key="87" type="xstring" value="currentPrice (#9)"/>
+                <entry key="88" type="xstring" value="averagePositionPriceFifo (#9)"/>
+                <entry key="89" type="xstring" value="quantityLots (#9)"/>
+                <entry key="90" type="xstring" value="figi (#10)"/>
+                <entry key="91" type="xstring" value="instrumentType (#10)"/>
+                <entry key="92" type="xstring" value="quantity (#10)"/>
+                <entry key="93" type="xstring" value="averagePositionPrice (#10)"/>
+                <entry key="94" type="xstring" value="expectedYield (#10)"/>
+                <entry key="95" type="xstring" value="currentNkd (#10)"/>
+                <entry key="96" type="xstring" value="currentPrice (#10)"/>
+                <entry key="97" type="xstring" value="averagePositionPriceFifo (#10)"/>
+                <entry key="98" type="xstring" value="quantityLots (#10)"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="Название счёта"/>
                 <entry key="1" type="xstring" value="Метод"/>
                 <entry key="2" type="xstring" value="HTTP Status Code"/>
                 <entry key="3" type="xstring" value="unnamed"/>
-                <entry key="4" type="xstring" value="figi"/>
-                <entry key="5" type="xstring" value="instrumentType"/>
-                <entry key="6" type="xstring" value="quantity"/>
-                <entry key="7" type="xstring" value="averagePositionPrice"/>
-                <entry key="8" type="xstring" value="expectedYield"/>
-                <entry key="9" type="xstring" value="currentNkd"/>
-                <entry key="10" type="xstring" value="currentPrice"/>
-                <entry key="11" type="xstring" value="averagePositionPriceFifo"/>
-                <entry key="12" type="xstring" value="quantityLots"/>
-                <entry key="13" type="xstring" value="figi (#1)"/>
-                <entry key="14" type="xstring" value="instrumentType (#1)"/>
-                <entry key="15" type="xstring" value="quantity (#1)"/>
-                <entry key="16" type="xstring" value="averagePositionPrice (#1)"/>
-                <entry key="17" type="xstring" value="expectedYield (#1)"/>
-                <entry key="18" type="xstring" value="currentNkd (#1)"/>
-                <entry key="19" type="xstring" value="currentPrice (#1)"/>
-                <entry key="20" type="xstring" value="averagePositionPriceFifo (#1)"/>
-                <entry key="21" type="xstring" value="quantityLots (#1)"/>
-                <entry key="22" type="xstring" value="figi (#2)"/>
-                <entry key="23" type="xstring" value="instrumentType (#2)"/>
-                <entry key="24" type="xstring" value="quantity (#2)"/>
-                <entry key="25" type="xstring" value="averagePositionPrice (#2)"/>
-                <entry key="26" type="xstring" value="expectedYield (#2)"/>
-                <entry key="27" type="xstring" value="currentNkd (#2)"/>
-                <entry key="28" type="xstring" value="currentPrice (#2)"/>
-                <entry key="29" type="xstring" value="averagePositionPriceFifo (#2)"/>
-                <entry key="30" type="xstring" value="quantityLots (#2)"/>
-                <entry key="31" type="xstring" value="figi (#3)"/>
-                <entry key="32" type="xstring" value="instrumentType (#3)"/>
-                <entry key="33" type="xstring" value="quantity (#3)"/>
-                <entry key="34" type="xstring" value="averagePositionPrice (#3)"/>
-                <entry key="35" type="xstring" value="expectedYield (#3)"/>
-                <entry key="36" type="xstring" value="currentNkd (#3)"/>
-                <entry key="37" type="xstring" value="currentPrice (#3)"/>
-                <entry key="38" type="xstring" value="averagePositionPriceFifo (#3)"/>
-                <entry key="39" type="xstring" value="quantityLots (#3)"/>
-                <entry key="40" type="xstring" value="figi (#4)"/>
-                <entry key="41" type="xstring" value="instrumentType (#4)"/>
-                <entry key="42" type="xstring" value="quantity (#4)"/>
-                <entry key="43" type="xstring" value="averagePositionPrice (#4)"/>
-                <entry key="44" type="xstring" value="expectedYield (#4)"/>
-                <entry key="45" type="xstring" value="currentNkd (#4)"/>
-                <entry key="46" type="xstring" value="currentPrice (#4)"/>
-                <entry key="47" type="xstring" value="averagePositionPriceFifo (#4)"/>
-                <entry key="48" type="xstring" value="quantityLots (#4)"/>
-                <entry key="49" type="xstring" value="figi (#5)"/>
-                <entry key="50" type="xstring" value="instrumentType (#5)"/>
-                <entry key="51" type="xstring" value="quantity (#5)"/>
-                <entry key="52" type="xstring" value="averagePositionPrice (#5)"/>
-                <entry key="53" type="xstring" value="expectedYield (#5)"/>
-                <entry key="54" type="xstring" value="currentNkd (#5)"/>
-                <entry key="55" type="xstring" value="currentPrice (#5)"/>
-                <entry key="56" type="xstring" value="averagePositionPriceFifo (#5)"/>
-                <entry key="57" type="xstring" value="quantityLots (#5)"/>
-                <entry key="58" type="xstring" value="figi (#6)"/>
-                <entry key="59" type="xstring" value="instrumentType (#6)"/>
-                <entry key="60" type="xstring" value="quantity (#6)"/>
-                <entry key="61" type="xstring" value="averagePositionPrice (#6)"/>
-                <entry key="62" type="xstring" value="expectedYield (#6)"/>
-                <entry key="63" type="xstring" value="currentNkd (#6)"/>
-                <entry key="64" type="xstring" value="currentPrice (#6)"/>
-                <entry key="65" type="xstring" value="averagePositionPriceFifo (#6)"/>
-                <entry key="66" type="xstring" value="quantityLots (#6)"/>
-                <entry key="67" type="xstring" value="figi (#7)"/>
-                <entry key="68" type="xstring" value="instrumentType (#7)"/>
-                <entry key="69" type="xstring" value="quantity (#7)"/>
-                <entry key="70" type="xstring" value="averagePositionPrice (#7)"/>
-                <entry key="71" type="xstring" value="expectedYield (#7)"/>
-                <entry key="72" type="xstring" value="currentNkd (#7)"/>
-                <entry key="73" type="xstring" value="currentPrice (#7)"/>
-                <entry key="74" type="xstring" value="averagePositionPriceFifo (#7)"/>
-                <entry key="75" type="xstring" value="quantityLots (#7)"/>
-                <entry key="76" type="xstring" value="figi (#8)"/>
-                <entry key="77" type="xstring" value="instrumentType (#8)"/>
-                <entry key="78" type="xstring" value="quantity (#8)"/>
-                <entry key="79" type="xstring" value="averagePositionPrice (#8)"/>
-                <entry key="80" type="xstring" value="expectedYield (#8)"/>
-                <entry key="81" type="xstring" value="currentNkd (#8)"/>
-                <entry key="82" type="xstring" value="currentPrice (#8)"/>
-                <entry key="83" type="xstring" value="averagePositionPriceFifo (#8)"/>
-                <entry key="84" type="xstring" value="quantityLots (#8)"/>
-                <entry key="85" type="xstring" value="figi (#9)"/>
-                <entry key="86" type="xstring" value="instrumentType (#9)"/>
-                <entry key="87" type="xstring" value="quantity (#9)"/>
-                <entry key="88" type="xstring" value="averagePositionPrice (#9)"/>
-                <entry key="89" type="xstring" value="expectedYield (#9)"/>
-                <entry key="90" type="xstring" value="currentNkd (#9)"/>
-                <entry key="91" type="xstring" value="currentPrice (#9)"/>
-                <entry key="92" type="xstring" value="averagePositionPriceFifo (#9)"/>
-                <entry key="93" type="xstring" value="quantityLots (#9)"/>
             </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="0"/>
-            </config>
-            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="type" type="xstring" value="Wildcard"/>

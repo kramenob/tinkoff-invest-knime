@@ -10,7 +10,7 @@
         <entry key="remove.input.column" type="xboolean" value="true"/>
         <entry key="new.column.name" type="xstring" value="JSON"/>
         <entry key="allow.comments" type="xboolean" value="true"/>
-        <entry key="fail.on.error" type="xboolean" value="true"/>
+        <entry key="fail.on.error" type="xboolean" value="false"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="values to JSON"/>

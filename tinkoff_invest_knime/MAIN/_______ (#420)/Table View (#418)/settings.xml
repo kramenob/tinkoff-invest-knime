@@ -51,7 +51,7 @@
             <entry key="2" type="xint" value="50"/>
             <entry key="3" type="xint" value="100"/>
         </config>
-        <entry key="enableShowAll" type="xboolean" value="false"/>
+        <entry key="enableShowAll" type="xboolean" value="true"/>
         <entry key="enableJumpToPage" type="xboolean" value="false"/>
         <entry key="displayRowColors" type="xboolean" value="false"/>
         <entry key="displayRowIDs" type="xboolean" value="false"/>

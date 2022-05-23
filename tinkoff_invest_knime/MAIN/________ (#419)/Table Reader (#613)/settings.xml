@@ -6,7 +6,439 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <config key="table_spec_config_Internals">
+            <entry key="version" type="xstring" value="V4_4"/>
+            <config key="individual_specs">
+                <config key="tinkoff_invest_knime/data/positions.table">
+                    <entry key="num_columns" type="xint" value="9"/>
+                    <config key="0">
+                        <entry key="name" type="xstring" value="Инструмент"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <entry key="name" type="xstring" value="instrumentType"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" isnull="true" value=""/>
+                                <entry key="has_pref_value_class" type="xboolean" value="true"/>
+                                <config key="value_classes">
+                                    <entry key="array-size" type="xint" value="2"/>
+                                    <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
+                                    <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                                </config>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="2">
+                        <entry key="name" type="xstring" value="averagePositionPrice"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="3">
+                        <entry key="name" type="xstring" value="averagePositionPriceFifo"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="4">
+                        <entry key="name" type="xstring" value="currentNkd"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="5">
+                        <entry key="name" type="xstring" value="currentPrice"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="6">
+                        <entry key="name" type="xstring" value="expectedYield"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="7">
+                        <entry key="name" type="xstring" value="quantity"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="8">
+                        <entry key="name" type="xstring" value="quantityLots"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <config key="type">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                <entry key="is_null" type="xboolean" value="false"/>
+                            </config>
+                        </config>
+                    </config>
+                </config>
+            </config>
+            <config key="table_transformation">
+                <config key="columns">
+                    <config key="0">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Инструмент"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Имя инструмента"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="0"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="instrumentType"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" isnull="true" value=""/>
+                                    <entry key="has_pref_value_class" type="xboolean" value="true"/>
+                                    <config key="value_classes">
+                                        <entry key="array-size" type="xint" value="2"/>
+                                        <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
+                                        <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                                    </config>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="instrumentType"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="1"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="?"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" isnull="true" value=""/>
+                                <entry key="has_pref_value_class" type="xboolean" value="true"/>
+                                <config key="value_classes">
+                                    <entry key="array-size" type="xint" value="2"/>
+                                    <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
+                                    <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                                </config>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="?"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" isnull="true" value=""/>
+                                <entry key="has_pref_value_class" type="xboolean" value="true"/>
+                                <config key="value_classes">
+                                    <entry key="array-size" type="xint" value="2"/>
+                                    <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
+                                    <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                                </config>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="2">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="averagePositionPrice"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Средневзвешенная цена"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="2"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="3">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="averagePositionPriceFifo"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Средняя цена лота"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="3"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="4">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="currentNkd"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Текущий НКД"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="4"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="5">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="currentPrice"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Текущая цена за 1 ед."/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="5"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="6">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="expectedYield"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Доходность"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="6"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="7">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="quantity"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Количество"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="7"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <config key="8">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="quantityLots"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <config key="type">
+                                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                                    <entry key="is_null" type="xboolean" value="false"/>
+                                </config>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Лотов"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="8"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="CELL_CONVERTER_IDENTITY_FACTORY"/>
+                            <entry key="_converter_src" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value=""/>
+                            <config key="_converter_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                            <entry key="_producer" type="xstring" value="CELL_VALUE_PRODUCER_IDENTITY_FACTORY"/>
+                            <entry key="_producer_src" type="xstring" value="String"/>
+                            <entry key="_producer_dst" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <entry key="_producer_name" type="xstring" value="org.knime.core.data.DataCell"/>
+                            <config key="_producer_config">
+                                <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                            </config>
+                        </config>
+                    </config>
+                    <entry key="num_columns" type="xint" value="9"/>
+                    <config key="intersection_indices">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xint" value="0"/>
+                        <entry key="1" type="xint" value="1"/>
+                        <entry key="2" type="xint" value="2"/>
+                        <entry key="3" type="xint" value="3"/>
+                        <entry key="4" type="xint" value="4"/>
+                        <entry key="5" type="xint" value="5"/>
+                        <entry key="6" type="xint" value="6"/>
+                        <entry key="7" type="xint" value="7"/>
+                        <entry key="8" type="xint" value="8"/>
+                    </config>
+                </config>
+                <entry key="skip_empty_columns" type="xboolean" value="false"/>
+                <entry key="enforce_types" type="xboolean" value="true"/>
+                <entry key="column_filter_mode" type="xstring" value="UNION"/>
+                <config key="unknown_columns_transformation">
+                    <entry key="position" type="xint" value="9"/>
+                    <entry key="keep" type="xboolean" value="true"/>
+                    <entry key="force_type" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <entry key="source_group_id" type="xstring" value="tinkoff_invest_knime/data/positions.table"/>
+            <config key="config_id">
+                <config key="table_reader"/>
+            </config>
+        </config>
         <config key="settings">
+            <entry key="has_row_id" type="xboolean" value="false"/>
+            <entry key="prepend_table_index_to_row_id" type="xboolean" value="false"/>
             <config key="file_selection_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
                 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -53,8 +485,6 @@
                     </config>
                 </config>
             </config>
-            <entry key="has_row_id" type="xboolean" value="false"/>
-            <entry key="prepend_table_index_to_row_id" type="xboolean" value="false"/>
         </config>
         <config key="advanced_settings">
             <entry key="skip_data_rows" type="xboolean" value="false"/>

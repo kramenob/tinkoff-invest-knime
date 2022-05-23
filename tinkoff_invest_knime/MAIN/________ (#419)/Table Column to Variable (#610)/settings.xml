@@ -6,25 +6,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row0"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Суммой 3450.46 ₽"/>
+            <entry key="value" type="xstring" value="Суммой 3489.82 ₽"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row1"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Суммой 1819.41 ₽"/>
+            <entry key="value" type="xstring" value="Суммой 1820.9 ₽"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row2"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Суммой 36.62 ₽"/>
+            <entry key="value" type="xstring" value="Суммой 36.13 ₽"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row3"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Суммой 1073.83 ₽"/>
+            <entry key="value" type="xstring" value="Суммой 1016.63 ₽"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
@@ -36,7 +36,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row5"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Суммой -26.24 %"/>
+            <entry key="value" type="xstring" value="Суммой -26.43 %"/>
         </config>
     </config>
     <config key="internal_node_subsettings">

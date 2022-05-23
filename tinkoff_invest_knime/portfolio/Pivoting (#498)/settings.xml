@@ -15,11 +15,14 @@
                 <entry key="array-size" type="xint" value="0"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="4"/>
+                <entry key="array-size" type="xint" value="7"/>
                 <entry key="0" type="xstring" value="RowIDs"/>
                 <entry key="1" type="xstring" value="ColumnNames"/>
                 <entry key="2" type="xstring" value="ColumnValues"/>
-                <entry key="3" type="xstring" value="Description"/>
+                <entry key="3" type="xstring" value="Название счёта"/>
+                <entry key="4" type="xstring" value="Метод"/>
+                <entry key="5" type="xstring" value="HTTP Status Code"/>
+                <entry key="6" type="xstring" value="unnamed"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -103,10 +106,13 @@
                 <entry key="0" type="xstring" value="ColumnNames"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="RowIDs"/>
                 <entry key="1" type="xstring" value="ColumnValues"/>
-                <entry key="2" type="xstring" value="Description"/>
+                <entry key="2" type="xstring" value="Название счёта"/>
+                <entry key="3" type="xstring" value="Метод"/>
+                <entry key="4" type="xstring" value="HTTP Status Code"/>
+                <entry key="5" type="xstring" value="unnamed"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>

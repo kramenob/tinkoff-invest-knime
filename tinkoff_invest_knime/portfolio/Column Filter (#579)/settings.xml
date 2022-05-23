@@ -12,13 +12,15 @@
                 <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="Инструмент"/>
                 <entry key="1" type="xstring" value="ColumnNames"/>
-                <entry key="2" type="xstring" value="Тип Инструмента"/>
+                <entry key="2" type="xstring" value="instrumentType"/>
                 <entry key="3" type="xstring" value="Сумма"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="RowIDs"/>
                 <entry key="1" type="xstring" value="ColumnValues"/>
+                <entry key="2" type="xstring" value="figi"/>
+                <entry key="3" type="xstring" value="ticker"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">

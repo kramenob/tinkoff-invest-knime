@@ -14,20 +14,20 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Тип Инструмента"/>
-                <entry key="1" type="xstring" value="ID Инструмента"/>
+                <entry key="0" type="xstring" value="figi"/>
+                <entry key="1" type="xstring" value="instrumentType"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="Средневзвешенная цена"/>
-                <entry key="1" type="xstring" value="Средняя цена лота"/>
-                <entry key="2" type="xstring" value="Текущий НКД"/>
-                <entry key="3" type="xstring" value="Текущая цена за 1 ед."/>
-                <entry key="4" type="xstring" value="Доходность"/>
-                <entry key="5" type="xstring" value="Количество"/>
-                <entry key="6" type="xstring" value="Лотов"/>
+                <entry key="0" type="xstring" value="averagePositionPrice"/>
+                <entry key="1" type="xstring" value="averagePositionPriceFifo"/>
+                <entry key="2" type="xstring" value="currentNkd"/>
+                <entry key="3" type="xstring" value="currentPrice"/>
+                <entry key="4" type="xstring" value="expectedYield"/>
+                <entry key="5" type="xstring" value="quantity"/>
+                <entry key="6" type="xstring" value="quantityLots"/>
             </config>
-            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="type" type="xstring" value="Wildcard"/>
@@ -53,18 +53,18 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="Средневзвешенная цена"/>
-                <entry key="1" type="xstring" value="Средняя цена лота"/>
-                <entry key="2" type="xstring" value="Текущий НКД"/>
-                <entry key="3" type="xstring" value="Текущая цена за 1 ед."/>
-                <entry key="4" type="xstring" value="Доходность"/>
-                <entry key="5" type="xstring" value="Количество"/>
-                <entry key="6" type="xstring" value="Лотов"/>
+                <entry key="0" type="xstring" value="averagePositionPrice"/>
+                <entry key="1" type="xstring" value="averagePositionPriceFifo"/>
+                <entry key="2" type="xstring" value="currentNkd"/>
+                <entry key="3" type="xstring" value="currentPrice"/>
+                <entry key="4" type="xstring" value="expectedYield"/>
+                <entry key="5" type="xstring" value="quantity"/>
+                <entry key="6" type="xstring" value="quantityLots"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Тип Инструмента"/>
-                <entry key="1" type="xstring" value="ID Инструмента"/>
+                <entry key="0" type="xstring" value="figi"/>
+                <entry key="1" type="xstring" value="instrumentType"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -93,7 +93,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="missing-values" type="xboolean" value="false"/>
+        <entry key="missing-values" type="xboolean" value="true"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="columning"/>

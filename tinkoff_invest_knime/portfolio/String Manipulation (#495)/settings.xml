@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="removeChars($ColumnNames$, &quot; (#123456789)&quot;)"/>
+        <entry key="expression" type="xstring" value="removeChars($ColumnNames$, &quot; (#0123456789)&quot;)"/>
         <entry key="replaced_column" type="xstring" value="ColumnNames"/>
         <entry key="append_column" type="xboolean" value="true"/>
         <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
