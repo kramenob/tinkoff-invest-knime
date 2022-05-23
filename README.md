@@ -18,11 +18,11 @@
 
 ## Работа с API Тинькофф Инвестиций без навыков программирования
 
-Tinkoff Invest KNIME* — это Workspace* KNIME с примером простейшего функционала взаимодействия Tinkoff Invest API*, а именно: авторизация через токен доступа; просмотр информации по инвестиционным счетам; выбор счёта; просмотр информации выбранного брокерского счёта; задание бюджета инвестирования; просмотр доступных инструментов с учётом заданного бюджета; осуществление покупки выбранных инструментов; просмотр информации по осуществленным покупкам; и другое.
+Tinkoff Invest [KNIME](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#knime-analitics-platform) — это [Workspace](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#workspace) KNIME с примером простейшего функционала взаимодействия [Tinkoff Invest API](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#tinkoff-invest-api), а именно: авторизация через токен доступа; просмотр информации по инвестиционным счетам; выбор счёта; просмотр информации выбранного брокерского счёта; задание бюджета инвестирования; просмотр доступных инструментов с учётом заданного бюджета; осуществление покупки выбранных инструментов; просмотр информации по осуществленным покупкам; и другое.
 
-В связке KNIME + Palladian* можно работать с Tinkoff Invest API без навыков программирования, путём интерактивной работы с интерфейсом KNIME: добавление node'ов* в workflow* , их настройка и исполнение, а также просмотр полученных данных (таблиц, графиков, и др.) с дальнейшим выводом в Interactive View* , посредством component'ов*.
+В связке KNIME + [Palladian](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#palladian) можно работать с Tinkoff Invest API без навыков программирования, путём интерактивной работы с интерфейсом KNIME: добавление [node'ов](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#workspace) в [workflow](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#workflow), их настройка и исполнение, а также просмотр полученных данных (таблиц, графиков, и др.) с дальнейшим выводом в [Interactive View](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#interactive-view), посредством [component'ов](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#component).
 
-Также есть возможность публикации в общий доступ конфигурированного Workspace посредством KNIME Server*, где любой пользователь сможет работать с Tinkoff Invest API самостоятельно, аналогично веб-сервису.
+Также есть возможность публикации в общий доступ конфигурированного Workspace посредством [KNIME Server](https://github.com/ruisdaeless/tinkoff_invest_knime/blob/main/docs/glossary.md#knime-server), где любой пользователь сможет работать с Tinkoff Invest API самостоятельно, аналогично веб-сервису.
 
 [Глоссарий терминов](./docs/glossary.md)
 
@@ -32,11 +32,9 @@ Tinkoff Invest KNIME* — это Workspace* KNIME с примером прост
 
 1. Наличие Брокерского счёта в Тинькофф Инвестициях;
 2. Установленный на ПК KNIME Analytics Platform;
-3. Установленные расширения KNIME:
-   - Palladian
-   - *в написании*
+3. Установленное расширение KNIME: Palladian for KNIME 
 
-[Инструкция по установке и настройке]()
+[Инструкция по установке и настройке](./docs/installation.md)
 
 ## Использование
 

@@ -1,9 +1,5 @@
 # Глоссарий терминов
 
-[TOC]
-
-
-
 ## Tinkoff Invest API
 
 Это [gRPC-интерфейс](https://tinkoff.github.io/investAPI/grpc) для взаимодействия с торговой платформой [Тинькофф Инвестиции](https://www.tinkoff.ru/invest/).

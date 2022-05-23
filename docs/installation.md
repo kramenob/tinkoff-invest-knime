@@ -1,10 +1,8 @@
 # Инструкция по установке и настройке
 
-[TOC]
-
----
-
 Весь процесс установки и настройки осуществлен на ОС Windows 10
+
+
 
 ## Загрузка необходимого
 
@@ -34,6 +32,10 @@ git clone https://github.com/ruisdaeless/tinkoff_invest_knime
 
 - [Прямая ссылка на загрузку](https://download.nodepit.com/palladian/4.5.zip) (70.5 MB, рекомендуется)
 
+Установка Palladian for KNIME будет рассмотрена на примере пакета, а не ссылки-источника
+
+
+
 ## Установка
 
 ### KNIME Analytics Platform
@@ -42,6 +44,8 @@ git clone https://github.com/ruisdaeless/tinkoff_invest_knime
 2. Следовать дальнейшей инструкции по установке. Рекомендуется не менять путь установки
 
 По завершению установки KNIME будет автоматически запущен
+
+
 
 ## Настройка
 
@@ -64,7 +68,7 @@ git clone https://github.com/ruisdaeless/tinkoff_invest_knime
 </p>
 На этом этапе Workspace, Tinkoff Invest KNIME, настроен
 
-### Extensions (Расширения)
+### Extension (Расширение)
 
 1. Не закрывая KNIME Analytics Platform, открыть настройки: `File` - `Preferences` ([Скриншоте 03](https://i.ibb.co/jG1GCX0/03.png))
 
@@ -92,10 +96,34 @@ git clone https://github.com/ruisdaeless/tinkoff_invest_knime
   <a href="https://i.ibb.co/dcWTYWx/05.png" alt="01"><img src="https://i.ibb.co/dcWTYWx/05.png"/></a>
 </p>
 
-2. На всплывшем окне "Add Site" ([Скриншоте 05](https://i.ibb.co/dcWTYWx/05.png)):
+2. Пакет расширений подключен ([Скриншоте 06](https://i.ibb.co/LphQFx0/06.png)):
+   Нажать `Apply and Close`
 
+<p align="center">
+  <a href="https://i.ibb.co/LphQFx0/06.png" alt="01"><img src="https://i.ibb.co/LphQFx0/06.png"/></a>
+</p>
 
+2. Остается запустить установку расширений ([Скриншоте 07](https://i.ibb.co/ypDTCS1/07.png)):
 
+   Перейти по `File` - `Install KNIME Extensions...`
+
+<p align="center">
+  <a href="https://i.ibb.co/ypDTCS1/07.png" alt="01"><img src="https://i.ibb.co/ypDTCS1/07.png"/></a>
+</p>
+
+2. Галочкой заполнить чек-бокс "Palladian for KNIME" ([Скриншоте 08](https://i.ibb.co/X4jmY1c/08.png)):
+   Нажать `Next >`, затем снова `Next >` вплоть до `Finish`
+
+<p align="center">
+  <a href="https://i.ibb.co/X4jmY1c/08.png" alt="01"><img src="https://i.ibb.co/X4jmY1c/08.png"/></a>
+</p>
+В процессе установки необходимо принять пользовательское соглашение и "установить в любом случае".
+
+После успешной установки на всплывшем окне нажать `Restart Now` для применение установленного расширения
+
+<p align="center">
+  <a href="https://i.ibb.co/jzpJ933/09.png" alt="01"><img src="https://i.ibb.co/jzpJ933/09.png"/></a>
+</p>
 
 
 
