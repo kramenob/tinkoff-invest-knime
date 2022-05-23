@@ -546,15 +546,15 @@
             "nrcreated": 0
         }
     },
-    "uptime": 5507566,
-    "workflowsOpened": 25,
+    "uptime": 4593932,
+    "workflowsOpened": 26,
     "remoteWorkflowsOpened": 1,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 1,
     "workflowsExported": 0,
-    "launches": 4,
+    "launches": 5,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1101172,
+    "timeSinceLastStart": 939398,
     "crashes": 0,
     "properlyShutDown": true
 }
