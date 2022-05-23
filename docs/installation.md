@@ -124,7 +124,4 @@ git clone https://github.com/ruisdaeless/tinkoff_invest_knime
 <p align="center">
   <a href="https://i.ibb.co/jzpJ933/09.png" alt="01"><img src="https://i.ibb.co/jzpJ933/09.png"/></a>
 </p>
-
-
-
-
+На этом моменте рабочее окружение полностью настроенное и можно приступить к [Использованию](https://github.com/ruisdaeless/tinkoff_invest_knime/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
