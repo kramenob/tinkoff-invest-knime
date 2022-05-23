@@ -21,7 +21,7 @@
                 <path d="M220 39 L1381 39 L1381 58 L220 58 L220 39 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-                <path d="M-1 -1 L1452 -1 L1452 41 L-1 41 L-1 -1 Z"/>
+                <path d="M-1 -1 L1452 -1 L1452 45 L-1 45 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
                 <path d="M543 9 L961 9 L961 35 L543 35 L543 9 Z"/>
@@ -210,7 +210,7 @@
            stroke-linejoin="round" stroke="white" stroke-width="0"
            stroke-miterlimit="0">
             <rect x="0" y="0" clip-path="url(#clipPath3)" width="1451"
-                  height="40" stroke="none"/>
+                  height="44" stroke="none"/>
         </g>
         <g font-size="20" font-family="&apos;Arial&apos;"
            stroke-linejoin="round" font-weight="bold" stroke-width="0"
@@ -220,7 +220,7 @@
         </g><g fill="white" stroke-width="10" font-family="&apos;Segoe UI&apos;"
            stroke-linecap="butt" stroke="white">
             <rect x="5" y="5" clip-path="url(#clipPath3)" fill="none"
-                  width="1441" height="30"/>
+                  width="1441" height="34"/>
             <rect x="0" y="100" clip-path="url(#clipPath5)"
                   fill="rgb(247,247,247)" width="1451" height="401"
                   stroke="none"/>
@@ -625,7 +625,7 @@ WQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
            text-rendering="optimizeLegibility"
            font-family="&apos;Segoe UI&apos;" stroke="white" stroke-width="16">
             <rect x="0" y="0" clip-path="url(#clipPath3)" width="1451"
-                  height="40" stroke="none"/>
+                  height="44" stroke="none"/>
         </g>
         <g stroke-linecap="butt" font-size="20"
            text-rendering="optimizeLegibility" font-family="&apos;Arial&apos;"
@@ -636,7 +636,7 @@ WQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
            text-rendering="optimizeLegibility"
            font-family="&apos;Segoe UI&apos;" stroke="white" stroke-width="10">
             <rect x="5" y="5" clip-path="url(#clipPath3)" fill="none"
-                  width="1441" height="30"/>
+                  width="1441" height="34"/>
             <rect x="0" y="100" clip-path="url(#clipPath5)"
                   fill="rgb(247,247,247)" width="1451" height="401"
                   stroke="none"/>
@@ -1023,10 +1023,10 @@ WQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
            font-family="&apos;Segoe UI&apos;" stroke-linecap="butt"
            stroke="rgb(150,150,150)">
             <path fill="none"
-                  d="M345 398 C347 398 351 398 353 398 C390 398 344 276 381 276 C491 276 638 276 748 276 C786 276 748 398 786 398 C788 398 792 398 794 398"
+                  d="M345 178 C347 178 351 178 353 178 C383 178 348 276 378 276 C490 276 641 276 753 276 C784 276 755 178 786 178 C788 178 792 178 794 178"
                   clip-path="url(#clipPath60)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M345 178 C347 178 351 178 353 178 C383 178 348 276 378 276 C490 276 641 276 753 276 C784 276 755 178 786 178 C788 178 792 178 794 178"
+                  d="M345 398 C347 398 351 398 353 398 C390 398 344 276 381 276 C491 276 638 276 748 276 C786 276 748 398 786 398 C788 398 792 398 794 398"
                   clip-path="url(#clipPath60)" fill-rule="evenodd"/>
         </g>
     </g>
